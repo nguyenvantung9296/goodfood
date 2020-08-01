@@ -141,7 +141,7 @@
       .flex__nav--middle ul li {
         margin: 0 18px;
         line-height: 8rem;
-        transition: background-color .5s; }
+        transition:.5s ease-in-out; }
         .flex__nav--middle ul li a {
           font-size: 18px;
           color: #111111;
