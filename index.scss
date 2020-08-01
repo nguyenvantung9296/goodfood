@@ -75,6 +75,7 @@
         }
         .content--active{
             display:block;
+
         }
         .flex__background{
             font-family: 'Poppins', sans-serif;
@@ -90,6 +91,7 @@
     &__imageA{
         img{
             display:none;
+            transition: 1s ease-in-out;
         }
         .active-image{
             display:block;

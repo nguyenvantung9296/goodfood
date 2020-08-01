@@ -74,7 +74,8 @@
       font-size: 170px;
       font-weight: 700; }
   .flex__imageA img {
-    display: none; }
+    display: none;
+    transition: 1s ease-in-out; }
   .flex__imageA .active-image {
     display: block; }
   .flex__iconprev {
@@ -141,7 +142,7 @@
       .flex__nav--middle ul li {
         margin: 0 18px;
         line-height: 8rem;
-        transition:.5s ease-in-out; }
+        transition: background-color .5s; }
         .flex__nav--middle ul li a {
           font-size: 18px;
           color: #111111;
