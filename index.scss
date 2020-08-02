@@ -49,6 +49,7 @@
         padding-left:100px;
         .flex__content{
             display:none;
+            transition: 2s ease-in-out;
             .flex__text--sub{      
                 font-size: 43px;
                 font-weight: 700;
