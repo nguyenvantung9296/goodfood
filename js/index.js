@@ -54,3 +54,9 @@ $(function () {
         i = (i - 1 + slidesText.length) % slidesText.length
         slidesText[i].classList.add('content--active');
     }
+//filter
+
+$('.menu__abum__li').click(function(){
+    $('li').removeClass('filter');
+    $(this).addClass('filter')
+})

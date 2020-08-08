@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Baloo&amp;subset=vietnamese" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Baloo&amp;subset=vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo&amp;subset=vietnamese" rel="stylesheet">
     <link rel="stylesheet" href="./Allura-Regular.ttf">
     <link rel="stylesheet" href="index.css">
     <!-- <link rel="stylesheet" href="indexR.css"> -->
@@ -24,496 +24,500 @@
 
 <body>
 
-    <div class="flex">
-        <div class="flex__menu">
-            <i class="fas fa-bars"></i>
-        </div>
-        <div class="flex__overlay "></div>
-        <!--NAVVVVVVVVVVVVVVVVVVVVVV-->
-        <nav class="flex__nav">
-            <i class=" flex__icon fas fa-times"></i>
-            <div class="flex__nav--logo">
-                <h3>GOOD<span>FOOD</span></h3>
+    <header>
+        <div class="flex">
+            <div class="flex__menu">
+                <i class="fas fa-bars"></i>
             </div>
-            <div class="flex__nav--middle">
-                <ul>
-                    <li><a href="" class="active">Home</a></li>
-                    <li><a href="">Menu</a></li>
-                    <li><a class="flex__nav--aColor" href="">About</a></li>
-                    <li><a class="flex__nav--aColor" href="">Contact</a></li>
-                    <li><a class="flex__nav--aColor" href="">About</a></li>
-
-                </ul>
-            </div>
-    </div>
-    </nav>
-
-    <div class="flex__container flex--slider1 flex--active">
-        <div class="flex__item flex__item--left" id="slideShowText">
-            <div class="flex__content content--active">
-                <div class="flex__text--sub">Eat Healthy</div>
-                <div class="flex__text--name">stay healthy</div>
-                <div class="flex__text--secb">Là món ăn dành riêng cho thị trường Nhật Bản đã được GoodFood mang về
-                    do
-                    yêu cầu rất nhiều từ các bạn !!</div>
-                <div class="flex__buttonAdd" href="">
-                    <a href="">
-                        Add Now
-                    </a>
+            <div class="flex__overlay "></div>
+            <!--NAVVVVVVVVVVVVVVVVVVVVVV-->
+            <nav class="flex__nav">
+                <i class=" flex__icon fas fa-times"></i>
+                <div class="flex__nav--logo">
+                    <h3>GOOD<span>FOOD</span></h3>
                 </div>
-            </div>
-            <div class="flex__content">
-                <div class="flex__text--sub">Eat Your</div>
-                <div class="flex__text--name">Veggies</div>
-                <div class="flex__text--secb">Fringilla montes suscipit quasi pede, Voluptatum ut varius  fringilla. Cupidatat officia aspernatur laborum tenetur!!</div>
-                <div class="flex__buttonAdd" href="">
-                    <a href="">
-                        Add Now
-                    </a>
-                </div>
-            </div>
-            <div class="flex__content">
-                <div class="flex__text--sub">Good Food</div>
-                <div class="flex__text--name">Good Mood</div>
-                <div class="flex__text--secb">Nonummy fusce praesentium minus? Voluptatum ut varius ducimus vehicula, nunc, nostrum eu accumsan litora bibendum laudantium !!</div>
-                <div class="flex__buttonAdd" href="">
-                    <a href="">
-                        Add Now
-                    </a>
-                </div>
-            </div>
-
-            <p class="flex__background">FoodToday</p>
-        </div>
-        <div class="flex__item flex__item--right"></div>
-        <a class="flex__imageA" id="slideShow" href="#">
-            <img class="flex__image active-image" src="img/image.jpg">
-            <img class="flex__image " src="img/image2.jpg">
-            <img class="flex__image " src="img/image3.jpg">
-        </a>
-        <div class="flex__iconprev">
-            <ul class="controls">
-                <li><a href="#"><img src="img/back.png" onclick="backSlide();backSlideText();" alt=""></a></li>
-                <li><a href="#"><img src="img/next.png" onclick="nextSlide();nextSlideText();" alt=""></a></li>
-            </ul>
-        </div>
-    </div>
-    </div>
-
-    <!-- SECTION-2 -->
-    <section class="section2">
-        <div class="container container--sec2">
-            <div class="row row--sec2">
-                <div class="page__sec2 col-md-3 col-sm-6 col-xs-6">
-                    <div class="banner__hover">
-                        <img src="img/bn11.png" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-6 col-md-3--image2">
-                    <div class="banner__hover">
-                        <img src="img/bn13.png" alt="">
-                    </div>
-                </div>
-                <div class="page__sec2 col-md-6 col-sm-12 col-xs-12">
-                    <div class="banner__hover banner__hover--2">
-                        <img src="img/bn12.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- SECTION-2 -->
-
-    <!-- BEGIN-SECTION3 -->
-    <section class="section3">
-        <div class="container">
-            <div class="container__title">
-                <div class="sub__title">Our Store</div>
-                <h4 class="title__block ">
-                    <span class="title__block__text">new products</span>
-                </h4>
-            </div>
-            <div class="row row--abum">
-                <div class="menu__abum wow flipInX">
-                    <ul class="menu__abum__ul menu__abum--date menu__abum--filter ">
-                        <li class=" menu__abum__li li--home " data-filter=".home">Home</li>
-                        <li class=" menu__abum__li li--heathy" data-filter=".heathy">Heathy</li>
-                        <li class="menu__abum__li li--salad" data-filter=".salad">Salad</li>
-                        <li class="menu__abum__li li--saladBow" data-filter=".saladBow">Salad Bow</li>
-                        <li class="menu__abum__li li--hummus" data-filter=".hummus">Hummus</li>
+                <div class="flex__nav--middle">
+                    <ul>
+                        <li><a href="" class="active">Home</a></li>
+                        <li><a href="">Menu</a></li>
+                        <li><a class="flex__nav--aColor" href="">About</a></li>
+                        <li><a class="flex__nav--aColor" href="">Contact</a></li>
+                        <li><a class="flex__nav--aColor" href="">About</a></li>
 
                     </ul>
                 </div>
-                <div class="dropdown wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
-                    <a class="btn btn-secondary dropdown-toggle btn-menu" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Thực Đơn 
-                    </a>
-                
-                    <div class="dropdown-menu menu menu menu-date filter" aria-labelledby="dropdownMenuLink">
-                        <ul class="menu__abum__ul menu__abum--date menu__abum--filter ">
-                            <li class=" menu__abum__li li--home " data-filter=".home">Home</li>
-                            <li class=" menu__abum__li li--heathy" data-filter=".heathy">Heathy</li>
+        </div>
+        </nav>
+
+        <div class="flex__container flex--slider1 flex--active">
+            <div class="flex__item flex__item--left" id="slideShowText">
+                <div class="flex__content content--active">
+                    <div class="flex__text--sub">Eat Healthy</div>
+                    <div class="flex__text--name">stay healthy</div>
+                    <div class="flex__text--secb">Là món ăn dành riêng cho thị trường Nhật Bản đã được GoodFood mang về
+                        do
+                        yêu cầu rất nhiều từ các bạn !!</div>
+                    <div class="flex__buttonAdd" href="">
+                        <a href="">
+                            Add Now
+                        </a>
+                    </div>
+                </div>
+                <div class="flex__content">
+                    <div class="flex__text--sub">Eat Your</div>
+                    <div class="flex__text--name">Veggies</div>
+                    <div class="flex__text--secb">Fringilla montes suscipit quasi pede, Voluptatum ut varius fringilla.
+                        Cupidatat officia aspernatur laborum tenetur!!</div>
+                    <div class="flex__buttonAdd" href="">
+                        <a href="">
+                            Add Now
+                        </a>
+                    </div>
+                </div>
+                <div class="flex__content">
+                    <div class="flex__text--sub">Good Food</div>
+                    <div class="flex__text--name">Good Mood</div>
+                    <div class="flex__text--secb">Nonummy fusce praesentium minus? Voluptatum ut varius ducimus
+                        vehicula,
+                        nunc, nostrum eu accumsan litora bibendum laudantium !!</div>
+                    <div class="flex__buttonAdd" href="">
+                        <a href="">
+                            Add Now
+                        </a>
+                    </div>
+                </div>
+
+                <p class="flex__background">FoodToday</p>
+            </div>
+            <div class="flex__item flex__item--right"></div>
+            <a class="flex__imageA" id="slideShow" href="#">
+                <img class="flex__image active-image" src="img/image.jpg">
+                <img class="flex__image " src="img/image2.jpg">
+                <img class="flex__image " src="img/image3.jpg">
+            </a>
+            <div class="flex__iconprev">
+                <ul class="controls">
+                    <li><a href="#"><img src="img/back.png" onclick="backSlide();backSlideText();" alt=""></a></li>
+                    <li><a href="#"><img src="img/next.png" onclick="nextSlide();nextSlideText();" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <!-- SECTION-2 -->
+        <section class="section2">
+            <div class="container container--sec2">
+                <div class="row row--sec2">
+                    <div class="page__sec2 col-md-3 col-sm-6 col-xs-6">
+                        <div class="banner__hover">
+                            <img src="img/bn11.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6 col-md-3--image2">
+                        <div class="banner__hover">
+                            <img src="img/bn13.png" alt="">
+                        </div>
+                    </div>
+                    <div class="page__sec2 col-md-6 col-sm-12 col-xs-12">
+                        <div class="banner__hover banner__hover--2">
+                            <img src="img/bn12.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION-2 -->
+
+        <!-- BEGIN-SECTION3 -->
+        <section class="section3">
+            <div class="container">
+                <div class="container__title">
+                    <div class="sub__title">Our Store</div>
+                    <h4 class="title__block ">
+                        <span class="title__block__text">new products</span>
+                    </h4>
+                </div>
+                <div class="row row--abum">
+                    <div class="menu__abum wow flipInX">
+                        <ul class="menu__abum--date menu__abum--filter ">
+                            <li class="menu__abum__li li--home " data-filter=".home">Home</li>
+                            <li class="menu__abum__li li--heathy" data-filter=".heathy">Heathy</li>
                             <li class="menu__abum__li li--salad" data-filter=".salad">Salad</li>
                             <li class="menu__abum__li li--saladBow" data-filter=".saladBow">Salad Bow</li>
                             <li class="menu__abum__li li--hummus" data-filter=".hummus">Hummus</li>
+
                         </ul>
                     </div>
+                    <div class="dropdown wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
+                        <a class="btn btn-secondary dropdown-toggle btn-menu" href="#" role="button"
+                            id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Thực Đơn
+                        </a>
+
+                        <div class="dropdown-menu menu menu menu-date filter" aria-labelledby="dropdownMenuLink">
+                            <ul class="menu__abum__ul menu__abum--date menu__abum--filter ">
+                                <li class=" menu__abum__li li--home " data-filter=".home">Home</li>
+                                <li class=" menu__abum__li li--heathy" data-filter=".heathy">Heathy</li>
+                                <li class="menu__abum__li li--salad" data-filter=".salad">Salad</li>
+                                <li class="menu__abum__li li--saladBow" data-filter=".saladBow">Salad Bow</li>
+                                <li class="menu__abum__li li--hummus" data-filter=".hummus">Hummus</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row isotope isotope--grid">
+                    <!-- card--1 -->
+                    <div class="isotope__block col-md-3 col-sm-3 col-xs-6 heathy home">
+                        <div class="isotope__block__content">
+                            <img src="https://www.chelseasmessyapron.com/wp-content/uploads/2017/02/Chicken-Burrito-Bowls3.jpg"
+                                alt="">
+                            <div class="isotope__right">
+                                <div class="isotope__right__note">
+                                    <div class="isotope__right__note__content">
+                                        <div class="star star--4"></div>
+                                        <div class="star star--4"></div>
+                                        <div class="star star--4"></div>
+                                        <div class="star star--4"></div>
+                                        <div class="star"></div>
+                                    </div>
+                                    <div class="isotope__name"><a href="#">Lorem ipsum dolor sit
+                                            a</a></div>
+                                </div>
+                                <div class="isotope__price">
+                                    <span class="isotope__price__before">$60.00</span>
+                                    <span class="isotope__price__sale">$45.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end-card--1 -->
+                    <!-- begin-card--2 -->
+                    <div class="isotope__block col-md-3 col-sm-3 col-xs-6 heathy home">
+                        <div class="isotope__block__content">
+                            <img src="https://www.eatingbirdfood.com/wp-content/uploads/2020/06/sweet-potato-salad-spinach.jpg"
+                                alt="">
+                            <div class="isotope__right">
+                                <div class="isotope__right__note">
+                                    <div class="isotope__right__note__content">
+                                        <div class="star star--4"></div>
+                                        <div class="star star--4"></div>
+                                        <div class="star star--4"></div>
+                                        <div class="star "></div>
+                                        <div class="star"></div>
+                                    </div>
+                                    <div class="isotope__name"><a href="#">Lorem ipsum dolor sit
+                                            a</a></div>
+                                </div>
+                                <div class="isotope__price">
+                                    <span class="isotope__price__before">$60.00</span>
+                                    <span class="isotope__price__sale">$45.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end-card--2 -->
+                    <!-- begin-card--3 -->
+                    <div class="isotope__block col-md-3 col-sm-3 col-xs-6 heathy home">
+                        <div class="isotope__block__content">
+                            <img src="https://www.chelseasmessyapron.com/wp-content/uploads/2019/05/Corn-Bowls-1.jpg"
+                                alt="">
+                            <div class="isotope__right">
+                                <div class="isotope__right__note">
+                                    <div class="isotope__right__note__content">
+                                        <div class="star "></div>
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                    </div>
+                                    <div class="isotope__name"><a href="#">Lorem ipsum dolor sit
+                                            a</a></div>
+                                </div>
+                                <div class="isotope__price">
+                                    <span class="isotope__price__before">$60.00</span>
+                                    <span class="isotope__price__sale">$45.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end-card--3 -->
+                    <!-- begin-card--4 -->
+                    <div class="isotope__block col-md-3 col-sm-3 col-xs-6 salad home">
+                        <div class="isotope__block__content">
+                            <img src="https://www.emilieeats.com/wp-content/uploads/2017/01/vegan-burrito-bowl-gluten-free-healthy-lunch-dinner-easy-1.jpg"
+                                alt="">
+                            <div class="isotope__right">
+                                <div class="isotope__right__note">
+                                    <div class="isotope__right__note__content">
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                    </div>
+                                    <div class="isotope__name"><a href="#">Lorem ipsum dolor sit
+                                            a</a></div>
+                                </div>
+                                <div class="isotope__price">
+                                    <span class="isotope__price__before">$60.00</span>
+                                    <span class="isotope__price__sale">$45.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end-card--4 -->
+                    <!-- begin-card--5 -->
+                    <div class="isotope__block col-md-3 col-sm-3 col-xs-6 salad home">
+                        <div class="isotope__block__content">
+                            <img src="https://www.isabeleats.com/wp-content/uploads/2019/03/chicken-burrito-bowl-small-2.jpg"
+                                alt="">
+                            <div class="isotope__right">
+                                <div class="isotope__right__note">
+                                    <div class="isotope__right__note__content">
+                                        <div class="star star--4"></div>
+                                        <div class="star star--4"></div>
+                                        <div class="star star--4"></div>
+                                        <div class="star star--4"></div>
+                                        <div class="star"></div>
+                                    </div>
+                                    <div class="isotope__name"><a href="#">Lorem ipsum dolor sit
+                                            a</a></div>
+                                </div>
+                                <div class="isotope__price">
+                                    <span class="isotope__price__before">$60.00</span>
+                                    <span class="isotope__price__sale">$45.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end-card--5 -->
+                    <!-- begin-card--6 -->
+                    <div class="isotope__block col-md-3 col-sm-3 col-xs-6 saladBow home">
+                        <div class="isotope__block__content">
+                            <img src="https://www.joyfulhealthyeats.com/wp-content/uploads/2016/10/Easy-Sweet-Potato-Black-Bean-Quinoa-Bowls-with-Crema-web-7.jpg"
+                                alt="">
+                            <div class="isotope__right">
+                                <div class="isotope__right__note">
+                                    <div class="isotope__right__note__content">
+                                        <div class="star star--4"></div>
+                                        <div class="star star--4"></div>
+                                        <div class="star star--4"></div>
+                                        <div class="star"></div>
+                                        <div class="star"></div>
+                                    </div>
+                                    <div class="isotope__name"><a href="#">Lorem ipsum dolor sit
+                                            a</a></div>
+                                </div>
+                                <div class="isotope__price">
+                                    <span class="isotope__price__before">$60.00</span>
+                                    <span class="isotope__price__sale">$45.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end-card--6 -->
+                    <!-- begin-card--7 -->
+                    <div class="isotope__block col-md-3 col-sm-3 col-xs-6 hummus home">
+                        <div class="isotope__block__content">
+                            <img src="https://dolmafood.ca/wp-content/uploads/Sweet-Potato-Quinoa-Salad2.jpg" alt="">
+                            <div class="isotope__right">
+                                <div class="isotope__right__note">
+                                    <div class="isotope__right__note__content">
+                                        <div class="star star--4"></div>
+                                        <div class="star star--4"></div>
+                                        <div class="star star--4"></div>
+                                        <div class="star star--4"></div>
+                                        <div class="star star--4"></div>
+                                    </div>
+                                    <div class="isotope__name"><a href="#">Lorem ipsum dolor sit
+                                            a</a></div>
+                                </div>
+                                <div class="isotope__price">
+                                    <span class="isotope__price__before">$60.00</span>
+                                    <span class="isotope__price__sale">$45.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end-card--7 -->
+                    <!-- begin-card--8 -->
+                    <div class="isotope__block col-md-3 col-sm-3 col-xs-6 hummus home">
+                        <div class="isotope__block__content">
+                            <img src="https://vanillaandbean.com/wp-content/uploads/2017/03/quinoaSalad-5.jpg" alt="">
+                            <div class="isotope__right">
+                                <div class="isotope__right__note">
+                                    <div class="isotope__right__note__content">
+                                        <div class="star "></div>
+                                        <div class="star "></div>
+                                        <div class="star "></div>
+                                        <div class="star "></div>
+                                        <div class="star"></div>
+                                    </div>
+                                    <div class="isotope__name"><a href="#">Lorem ipsum dolor sit
+                                            a</a></div>
+                                </div>
+                                <div class="isotope__price">
+                                    <span class="isotope__price__before">$60.00</span>
+                                    <span class="isotope__price__sale">$45.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end-card--8 -->
+
                 </div>
             </div>
+        </section>
+        <!-- END-SECTION3 -->
 
-            <div class="row isotope isotope--grid">
-                <!-- card--1 -->
-                <div class="isotope__block col-md-3 col-sm-3 col-xs-6 heathy home">
-                    <div class="isotope__block__content">
-                        <img src="https://www.chelseasmessyapron.com/wp-content/uploads/2017/02/Chicken-Burrito-Bowls3.jpg"
-                            alt="">
-                        <div class="isotope__right">
-                            <div class="isotope__right__note">
-                                <div class="isotope__right__note__content">
-                                    <div class="star star--4"></div>
-                                    <div class="star star--4"></div>
-                                    <div class="star star--4"></div>
-                                    <div class="star star--4"></div>
-                                    <div class="star"></div>
-                                </div>
-                                <div class="isotope__name"><a href="#">Lorem ipsum dolor sit
-                                        a</a></div>
-                            </div>
-                            <div class="isotope__price">
-                                <span class="isotope__price__before">$60.00</span>
-                                <span class="isotope__price__sale">$45.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end-card--1 -->
-                <!-- begin-card--2 -->
-                <div class="isotope__block col-md-3 col-sm-3 col-xs-6 heathy home">
-                    <div class="isotope__block__content">
-                        <img src="https://www.eatingbirdfood.com/wp-content/uploads/2020/06/sweet-potato-salad-spinach.jpg"
-                            alt="">
-                        <div class="isotope__right">
-                            <div class="isotope__right__note">
-                                <div class="isotope__right__note__content">
-                                    <div class="star star--4"></div>
-                                    <div class="star star--4"></div>
-                                    <div class="star star--4"></div>
-                                    <div class="star "></div>
-                                    <div class="star"></div>
-                                </div>
-                                <div class="isotope__name"><a href="#">Lorem ipsum dolor sit
-                                        a</a></div>
-                            </div>
-                            <div class="isotope__price">
-                                <span class="isotope__price__before">$60.00</span>
-                                <span class="isotope__price__sale">$45.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end-card--2 -->
-                <!-- begin-card--3 -->
-                <div class="isotope__block col-md-3 col-sm-3 col-xs-6 heathy home">
-                    <div class="isotope__block__content">
-                        <img src="https://www.chelseasmessyapron.com/wp-content/uploads/2019/05/Corn-Bowls-1.jpg"
-                            alt="">
-                        <div class="isotope__right">
-                            <div class="isotope__right__note">
-                                <div class="isotope__right__note__content">
-                                    <div class="star "></div>
-                                    <div class="star"></div>
-                                    <div class="star"></div>
-                                    <div class="star"></div>
-                                    <div class="star"></div>
-                                </div>
-                                <div class="isotope__name"><a href="#">Lorem ipsum dolor sit
-                                        a</a></div>
-                            </div>
-                            <div class="isotope__price">
-                                <span class="isotope__price__before">$60.00</span>
-                                <span class="isotope__price__sale">$45.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end-card--3 -->
-                <!-- begin-card--4 -->
-                <div class="isotope__block col-md-3 col-sm-3 col-xs-6 salad home">
-                    <div class="isotope__block__content">
-                        <img src="https://www.emilieeats.com/wp-content/uploads/2017/01/vegan-burrito-bowl-gluten-free-healthy-lunch-dinner-easy-1.jpg"
-                            alt="">
-                        <div class="isotope__right">
-                            <div class="isotope__right__note">
-                                <div class="isotope__right__note__content">
-                                    <div class="star"></div>
-                                    <div class="star"></div>
-                                    <div class="star"></div>
-                                    <div class="star"></div>
-                                    <div class="star"></div>
-                                </div>
-                                <div class="isotope__name"><a href="#">Lorem ipsum dolor sit
-                                        a</a></div>
-                            </div>
-                            <div class="isotope__price">
-                                <span class="isotope__price__before">$60.00</span>
-                                <span class="isotope__price__sale">$45.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end-card--4 -->
-                <!-- begin-card--5 -->
-                <div class="isotope__block col-md-3 col-sm-3 col-xs-6 salad home">
-                    <div class="isotope__block__content">
-                        <img src="https://www.isabeleats.com/wp-content/uploads/2019/03/chicken-burrito-bowl-small-2.jpg"
-                            alt="">
-                        <div class="isotope__right">
-                            <div class="isotope__right__note">
-                                <div class="isotope__right__note__content">
-                                    <div class="star star--4"></div>
-                                    <div class="star star--4"></div>
-                                    <div class="star star--4"></div>
-                                    <div class="star star--4"></div>
-                                    <div class="star"></div>
-                                </div>
-                                <div class="isotope__name"><a href="#">Lorem ipsum dolor sit
-                                        a</a></div>
-                            </div>
-                            <div class="isotope__price">
-                                <span class="isotope__price__before">$60.00</span>
-                                <span class="isotope__price__sale">$45.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end-card--5 -->
-                <!-- begin-card--6 -->
-                <div class="isotope__block col-md-3 col-sm-3 col-xs-6 saladBow home">
-                    <div class="isotope__block__content">
-                        <img src="https://www.joyfulhealthyeats.com/wp-content/uploads/2016/10/Easy-Sweet-Potato-Black-Bean-Quinoa-Bowls-with-Crema-web-7.jpg"
-                            alt="">
-                        <div class="isotope__right">
-                            <div class="isotope__right__note">
-                                <div class="isotope__right__note__content">
-                                    <div class="star star--4"></div>
-                                    <div class="star star--4"></div>
-                                    <div class="star star--4"></div>
-                                    <div class="star"></div>
-                                    <div class="star"></div>
-                                </div>
-                                <div class="isotope__name"><a href="#">Lorem ipsum dolor sit
-                                        a</a></div>
-                            </div>
-                            <div class="isotope__price">
-                                <span class="isotope__price__before">$60.00</span>
-                                <span class="isotope__price__sale">$45.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end-card--6 -->
-                <!-- begin-card--7 -->
-                <div class="isotope__block col-md-3 col-sm-3 col-xs-6 hummus home">
-                    <div class="isotope__block__content">
-                        <img src="https://dolmafood.ca/wp-content/uploads/Sweet-Potato-Quinoa-Salad2.jpg" alt="">
-                        <div class="isotope__right">
-                            <div class="isotope__right__note">
-                                <div class="isotope__right__note__content">
-                                    <div class="star star--4"></div>
-                                    <div class="star star--4"></div>
-                                    <div class="star star--4"></div>
-                                    <div class="star star--4"></div>
-                                    <div class="star star--4"></div>
-                                </div>
-                                <div class="isotope__name"><a href="#">Lorem ipsum dolor sit
-                                        a</a></div>
-                            </div>
-                            <div class="isotope__price">
-                                <span class="isotope__price__before">$60.00</span>
-                                <span class="isotope__price__sale">$45.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end-card--7 -->
-                <!-- begin-card--8 -->
-                <div class="isotope__block col-md-3 col-sm-3 col-xs-6 hummus home">
-                    <div class="isotope__block__content">
-                        <img src="https://vanillaandbean.com/wp-content/uploads/2017/03/quinoaSalad-5.jpg" alt="">
-                        <div class="isotope__right">
-                            <div class="isotope__right__note">
-                                <div class="isotope__right__note__content">
-                                    <div class="star "></div>
-                                    <div class="star "></div>
-                                    <div class="star "></div>
-                                    <div class="star "></div>
-                                    <div class="star"></div>
-                                </div>
-                                <div class="isotope__name"><a href="#">Lorem ipsum dolor sit
-                                        a</a></div>
-                            </div>
-                            <div class="isotope__price">
-                                <span class="isotope__price__before">$60.00</span>
-                                <span class="isotope__price__sale">$45.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end-card--8 -->
+        <!-- BEGIN-SECTION4 -->
 
+        <section class="section4">
+            <div class="container container__sec4">
+                <div class="card">
+                    <div class="card__img">
+                        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F35%2F2019%2F03%2F16185957%2Fvegetarian-recipes-weight-loss.jpg"
+                            alt="">
+                    </div>
+                    <div class="card__content">
+                        <div>
+                            <h2 class="card__content--h2">Food One</h2>
+                            <p class="card__content--p">Ex explicabo enim tenetur nibh suscipit laoreet facere volutpat!
+                                Porro! Consectetuer
+                                hic? Eleifend accusantium placerat?</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END -->
+                <div class="card">
+                    <div class="card__img">
+                        <img src="https://www.wellandgood.com/wp-content/uploads/2019/08/Stocksy-vegan-macros-healthy-buddha-bowl-NatasaMandic.jpeg"
+                            alt="">
+                    </div>
+                    <div class="card__content">
+                        <div>
+                            <h2 class="card__content--h2">Food One</h2>
+                            <p class="card__content--p">Ex explicabo enim tenetur nibh suscipit laoreet facere volutpat!
+                                Porro! Consectetuer
+                                hic? Eleifend accusantium placerat?</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END -->
+                <div class="card">
+                    <div class="card__img">
+                        <img src="https://www.bluezones.com/wp-content/uploads/2019/01/canada-plate.jpg" alt="">
+                    </div>
+                    <div class="card__content">
+                        <div>
+                            <h2 class="card__content--h2">Food One</h2>
+                            <p class="card__content--p">Ex explicabo enim tenetur nibh suscipit laoreet facere volutpat!
+                                Porro! Consectetuer
+                                hic? Eleifend accusantium placerat?</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END -->
+                <div class="card">
+                    <div class="card__img">
+                        <img src="https://www.everythingmom.com/wp-content/uploads/2018/12/colorful-plate.jpg" alt="">
+                    </div>
+                    <div class="card__content">
+                        <div>
+                            <h2 class="card__content--h2">Food One</h2>
+                            <p class="card__content--p">Ex explicabo enim tenetur nibh suscipit laoreet facere volutpat!
+                                Porro! Consectetuer
+                                hic? Eleifend accusantium placerat?</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END -->
+
+            </div>
+        </section>
+        <!-- END-SECTION4 -->
+    </div>
+    <!--FOODTER-->
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row row-foodter">
+                <div class="col-xs-12 col-md-3 footer-item">
+                    <h4>Thông tin liên hệ</h4>
+                    <ul class="foodter-a">
+                        <li>
+                            <i class="fa fa-map-marker"></i>
+                            <a href="">Số 8 Sơn Đồng/HD/Hà Nội</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-mobile"></i>
+                            <a href="">Hotline: 0333765265</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope-o"></i>
+                            <a href="">Email: Tungnguyenvan9296@</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-3 footer-item">
+                    <h4>Thời gian mở cửa</h4>
+                    <ul class="foodter-a">
+                        <li>
+
+                            <a href="">Thứ 2 - thứ 6: 8AM - 10PM</a>
+                        </li>
+                        <li>
+
+                            <a href="">Thứ 7: 9AM - 8PM</a>
+                        </li>
+                        <li>
+
+                            <a href="">Nghỉ Chủ Nhật và các ngày Lễ Tết</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-3 footer-item">
+                    <h4>Hỗ trợ khách hàng</h4>
+                    <ul class="foodter-a">
+                        <li>
+
+                            <a href="">Liên hệ & Góp ý</a>
+                        </li>
+                        <li>
+
+                            <a href="">Hướng dẫn mua hàng online</a>
+                        </li>
+                        <li>
+
+                            <a href="">Câu hỏi thường gặp</a>
+                        </li>
+                        <li>
+
+                            <a href="">Chính sách bảo mật</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-3 footer-item">
+                    <h4>Chính sách mua hàng</h4>
+                    <ul class="foodter-a">
+                        <li>
+
+                            <a href="">Chính sách bảo hành, đổi trả</a>
+                        </li>
+                        <li>
+
+                            <a href="">Chính sách hội viên</a>
+                        <li>
+
+                            <a href="">Dịch vụ giao hàng!</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </section>
-    <!-- END-SECTION3 -->
-
-    <!-- BEGIN-SECTION4 -->
-
-    <section class="section4">
-        <div class="container container__sec4">
-            <div class="card">
-                <div class="card__img">
-                    <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F35%2F2019%2F03%2F16185957%2Fvegetarian-recipes-weight-loss.jpg"
-                        alt="">
-                </div>
-                <div class="card__content">
-                    <div>
-                        <h2 class="card__content--h2">Food One</h2>
-                        <p class="card__content--p">Ex explicabo enim tenetur nibh suscipit laoreet facere volutpat!
-                            Porro! Consectetuer
-                            hic? Eleifend accusantium placerat?</p>
-                    </div>
-                </div>
-            </div>
-            <!-- END -->
-            <div class="card">
-                <div class="card__img">
-                    <img src="https://www.wellandgood.com/wp-content/uploads/2019/08/Stocksy-vegan-macros-healthy-buddha-bowl-NatasaMandic.jpeg"
-                        alt="">
-                </div>
-                <div class="card__content">
-                    <div>
-                        <h2 class="card__content--h2">Food One</h2>
-                        <p class="card__content--p">Ex explicabo enim tenetur nibh suscipit laoreet facere volutpat!
-                            Porro! Consectetuer
-                            hic? Eleifend accusantium placerat?</p>
-                    </div>
-                </div>
-            </div>
-            <!-- END -->
-            <div class="card">
-                <div class="card__img">
-                    <img src="https://www.bluezones.com/wp-content/uploads/2019/01/canada-plate.jpg"
-                        alt="">
-                </div>
-                <div class="card__content">
-                    <div>
-                        <h2 class="card__content--h2">Food One</h2>
-                        <p class="card__content--p">Ex explicabo enim tenetur nibh suscipit laoreet facere volutpat!
-                            Porro! Consectetuer
-                            hic? Eleifend accusantium placerat?</p>
-                    </div>
-                </div>
-            </div>
-            <!-- END -->
-            <div class="card">
-                <div class="card__img">
-                    <img src="https://www.everythingmom.com/wp-content/uploads/2018/12/colorful-plate.jpg"
-                        alt="">
-                </div>
-                <div class="card__content">
-                    <div>
-                        <h2 class="card__content--h2">Food One</h2>
-                        <p class="card__content--p">Ex explicabo enim tenetur nibh suscipit laoreet facere volutpat!
-                            Porro! Consectetuer
-                            hic? Eleifend accusantium placerat?</p>
-                    </div>
-                </div>
-            </div>
-            <!-- END -->
-
-        </div>
-    </section>
-    <!-- END-SECTION4 -->
-    
-
-       <!--FOODTER-->
- <div class="section5">
-     <div class="container-fluid">
-        <div class="row row-foodter">
-            <div class="col-xs-12 col-md-3 footer-item">
-                <h4>Thông tin liên hệ</h4>
-                <ul class="foodter-a">
-                    <li>
-                        <i class="fa fa-map-marker"></i>
-                        <a href="">Số 8 Sơn Đồng/HD/Hà Nội</a>
-                    </li>
-                    <li>
-                        <i class="fa fa-mobile"></i>
-                        <a href="">Hotline: 0333765265</a>
-                    </li>
-                    <li>
-                        <i class="fa fa-envelope-o"></i>
-                        <a href="">Email: Tungnguyenvan9296@</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-xs-12 col-md-3 footer-item">
-                <h4>Thời gian mở cửa</h4>
-                <ul class="foodter-a">
-                    <li>
-    
-                        <a href="">Thứ 2 - thứ 6: 8AM - 10PM</a>
-                    </li>
-                    <li>
-    
-                        <a href="">Thứ 7: 9AM - 8PM</a>
-                    </li>
-                    <li>
-    
-                        <a href="">Nghỉ Chủ Nhật và các ngày Lễ Tết</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-xs-12 col-md-3 footer-item">
-                <h4>Hỗ trợ khách hàng</h4>
-                <ul class="foodter-a">
-                    <li>
-    
-                        <a href="">Liên hệ & Góp ý</a>
-                    </li>
-                    <li>
-    
-                        <a href="">Hướng dẫn mua hàng online</a>
-                    </li>
-                    <li>
-    
-                        <a href="">Câu hỏi thường gặp</a>
-                    </li>
-                    <li>
-    
-                        <a href="">Chính sách bảo mật</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-xs-12 col-md-3 footer-item">
-                <h4>Chính sách mua hàng</h4>
-                <ul class="foodter-a">
-                    <li>
-    
-                        <a href="">Chính sách bảo hành, đổi trả</a>
-                    </li>
-                    <li>
-    
-                        <a href="">Chính sách hội viên</a>
-                    <li>
-    
-                        <a href="">Dịch vụ giao hàng!</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-     </div>
- </div>
+    </div>
     <!--FOODTER-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

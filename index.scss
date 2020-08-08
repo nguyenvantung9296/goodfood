@@ -209,6 +209,7 @@
                   color: #111111;
                 }
             }
+
         }
     }
   }
@@ -318,6 +319,15 @@
                           &.flex__nav--aColor{
                               color:#111111;
                           }
+                          &:hover{
+                              color:#3e3e3e;
+                          }
+                        }
+                        a.active:before{
+                            background: #37d72f;
+                        }
+                        a:before{
+                            background: #37d72f;
                         }
                     }
                 }
@@ -564,7 +574,6 @@ overflow: hidden;
         list-style-type: none;
     }
     &__li{
-        margin: 0 27px;
         display:inline-table;
         line-height: 1;
         font-weight: 500;
@@ -573,6 +582,12 @@ overflow: hidden;
         position: relative;
         cursor: pointer;
         font-size: 16px;
+        padding: 10px 35px;
+        border-radius: 25px;
+        transition: .5s ease-in-out;
+        &:hover{
+          background: #37d72f;
+        }
     }
 }
 
@@ -683,6 +698,7 @@ overflow: hidden;
             margin:auto;
         }
     }
+    
 }
 //  SECTION 33333333333333333333333333333333333333333333333333333333333 ENDDDDDDDDĐ
 
@@ -1075,6 +1091,10 @@ overflow: hidden;
     .page__sec2.col-md-3.col-sm-6.col-xs-6,.col-md-3.col-sm-6.col-xs-6.col-md-3--image2{
         display:none;
     }
+    .flex__nav--logo {
+        position: ABSOLUTE;
+        top: 120px;
+    }
 }
 @media(max-width:500px){
     .flex__menu i {
@@ -1094,14 +1114,43 @@ overflow: hidden;
     flex: 0 0 90%;
 }
 }
+
 @media(min-width:601px){
     .dropdown.wow.bounceInUp{
         display:none;
+    }
+    .flex__nav--middle ul li:hover a.flex__nav--aColor{
+        color:#91d405;
     }
 }
 .flex__nav--middle ul li:hover a{
     color:inherit;
 }
-.flex__nav--middle ul li:hover a.flex__nav--aColor{
-    color:#91d405;
+
+.filter{
+    background: #37d72f;
+}
+.dropdown-toggle::after{
+    display:none;
+}
+.flex__iconprev .controls li{
+    position: relative;
+    z-index:2;
+}
+.flex__iconprev .controls li:before{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:0%;
+    height:100%;
+    background: #fff;
+    z-index:-1;
+    border:1px solid #37d72f;
+    transition: .5s ease-in-out;
+    opacity: 0;
+}
+.flex__iconprev .controls li:hover:before{
+   width:100%;
+   opacity: 1;
 }
